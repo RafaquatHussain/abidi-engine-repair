@@ -7,7 +7,8 @@ A modern, responsive website designed for an automotive engine repair and mainte
 ## 📸 Preview
 
 ### 🔧 Homepage
-![Homepage Screenshot](images/screenshot.png)
+<img width="1469" alt="Screenshot 2025-04-16 at 12 52 37 PM" src="https://github.com/user-attachments/assets/821c029a-8238-4d68-94bf-8d4b8e91015a" />
+
 
 ---
 
