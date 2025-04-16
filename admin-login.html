@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - ABIDI Service</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap&subset=latin" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<body class="auth-body admin-login">
+    <!-- Header -->
+    <header class="auth-header">
+        <div class="auth-logo">
+            <a href="index.html">
+                <svg class="logo-svg" width="40" height="40" viewBox="0 0 40 40">
+                    <path class="car-path" d="M8 24h24v-4c0-2-1.5-3.5-3.5-3.5h-13C13.5 16.5 12 18 12 20v4z" fill="none" stroke="#e74c3c" stroke-width="2"/>
+                    <circle class="wheel" cx="12" cy="24" r="3" fill="#2c3e50"/>
+                    <circle class="wheel" cx="28" cy="24" r="3" fill="#2c3e50"/>
+                    <path class="car-body" d="M12 20h16v4H12z" fill="#e74c3c"/>
+                </svg>
+                <span>ABIDI Service</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="auth-main">
+        <div class="auth-card admin-card">
+            <div class="auth-card-header">
+                <h1>Admin Login</h1>
+                <p>Secure access to the admin dashboard</p>
+            </div>
+            
+            <form id="adminLoginForm" class="auth-form">
+                <div class="form-group">
+                    <div class="input-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <input type="text" id="username" name="username" placeholder="Admin Username" required>
+                </div>
+                
+                <div class="form-group">
+                    <div class="input-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <input type="password" id="adminPassword" name="password" placeholder="Password" required>
+                    <button type="button" class="toggle-password">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                
+                <div class="form-group">
+                    <div class="input-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <input type="text" id="securityCode" name="securityCode" placeholder="Security Code" required>
+                </div>
+                
+                <div class="form-options">
+                    <div class="remember-me">
+                        <input type="checkbox" id="adminRemember" name="remember">
+                        <label for="adminRemember">Remember me</label>
+                    </div>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                
+                <button type="submit" class="auth-btn admin-btn">
+                    <span>Login to Dashboard</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+            
+            <div class="auth-card-footer">
+                <p>Are you a customer? <a href="customer-login.html">Customer Login</a></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="auth-footer">
+        <p>&copy; 2024 ABIDI Service. All rights reserved.</p>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/auth.js"></script>
+</body>
+</html> 
