@@ -1,28 +1,37 @@
 # ABIDI Service - Professional Engine Services
 
-A modern, responsive website for an automotive engine repair and maintenance business. This project showcases clean UI design, user-friendly navigation, and a well-structured service layout.
+A modern, responsive website designed for an automotive engine repair and maintenance business. This project showcases a clean UI, easy navigation, and useful service features.
 
-## 🚀 Features
-
-- 🔧 Engine repair, maintenance, and diagnostics sections
-- 💬 Customer review section
-- 📞 Contact form with image upload functionality
-- 📱 Fully responsive across devices
-- 🎨 Smooth animations with AOS
-- 🧰 Modern tools and technologies
+---
 
 ## 📸 Preview
 
-![ABIDI Service Preview](path/to/screenshot.png) *(Add a screenshot of your site here)*
+### 🔧 Homepage
+![Homepage Screenshot](images/screenshot.png)
+
+---
+
+## 🚀 Features
+
+- Engine Repair, Maintenance, and Diagnostics Sections
+- Customer Reviews
+- Contact Form with Image Upload
+- Fully Responsive Design
+- AOS-Based Scroll Animations
+- Font Awesome Icons and Google Fonts
+
+---
 
 ## 🛠️ Built With
 
 - HTML5
-- CSS3 (with custom animations & responsive design)
+- CSS3
 - JavaScript
 - Font Awesome
+- AOS (Animate on Scroll)
 - Google Fonts
-- AOS (Animate On Scroll)
 
-## 📂 Folder Structure
+---
+
+## 📁 Folder Structure
 
